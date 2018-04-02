@@ -1,0 +1,44 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #aaaaaa;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; 
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .hide-leftmenu {
+        display: none !important;
+    }
+
+    .main-content {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide-leftmenu {
+        display: none!important;
+    }
+
+    .main-content {
+        width: 100% !important;
+    }
+}
+
+.leftbar-menu {
+	float: left;
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    background-color: #495054;
+    color: white;
+}
+
+.main-content {
+	float: right;
+	width: 77%;
+}
