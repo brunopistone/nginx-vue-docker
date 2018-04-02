@@ -1,7 +1,7 @@
 <template>
 	<div class="slider-content">
 		<slider animation="fade">
-		  <slider-item v-for="image in list" :key="index">
+		  <slider-item v-for="(image, index) in list" :key="index">
 		    <div>
 		      <img class="mySlides" :src="image.src">
 		    </div>

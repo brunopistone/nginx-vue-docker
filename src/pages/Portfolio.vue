@@ -316,7 +316,6 @@ export default {
 	},
 	data() {
 		return {
-			"message" : "Hello World",
 			"slideIndex" : 0
 		};
 	},
