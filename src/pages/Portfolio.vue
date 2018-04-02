@@ -79,170 +79,33 @@
 						</div>
 					</div>
 					<div class="row row-paragraph our-skills">
-						<div class="col-xs-1">
-						</div>
-						<div class="col-xs-6">
-							<h3>
-								My skills
-							</h3>
-							<h4>
-								Programming
-							</h4>
-							<pre>public static void main main(String[] args) {<br>  System.out.println("Hello there!");<br>}</pre>
-							<p>
-								I tried to focused my background in all the aspects of the computer science. If in my job, I have to use specifics programming languages and frameworks, in private I try to learn all new technologies in order to introduce them.
-								For example, I have learned how to implements web applications using Spring and Springboot frameworks, using AngularJS for the frontend part, nginx as web server and Docker for the delivery, and in private I focused my attenction to Node JS for the backend part and Vue JS for the frontend
-							</p>
-						</div>
-						<div class="col-xs-4">
-							<div class="tags">
-								<ul>
-									<li>
-										<span>
-											C
-										</span>
-									</li>
-									<li>
-										<span>
-											PHP
-										</span>
-									</li>
-									<li>
-										<span>
-											Python
-										</span>
-									</li>
-									<li>
-										<span>
-											Java
-										</span>
-									</li>
-									<li>
-										<span>
-											Spring MVC
-										</span>
-									</li>
-									<li>
-										<span>
-											Springboot
-										</span>
-									</li>
-									<li>
-										<span>
-											Jersey
-										</span>
-									</li>
-									<li>
-										<span>
-											HTML
-										</span>
-									</li>
-									<li>
-										<span>
-											CSS
-										</span>
-									</li>
-									<li>
-										<span>
-											Javascript
-										</span>
-									</li>
-									<li>
-										<span>
-											Node JS
-										</span>
-									</li>
-									<li>
-										<span>
-											JQuery
-										</span>
-									</li>
-									<li>
-										<span>
-											AngularJS
-										</span>
-									</li>
-									<li>
-										<span>
-											Vue JS
-										</span>
-									</li>
-									<li>
-										<span>
-											Swift
-										</span>
-									</li>
-									<li>
-										<span>
-											Docker
-										</span>
-									</li>
-									<li>
-										<span>
-											nginx
-										</span>
-									</li>
-									<li>
-										<span>
-											apache
-										</span>
-									</li>
-									<li>
-										<span>
-											unix
-										</span>
-									</li>
-									<li>
-										<span>
-											osx
-										</span>
-									</li>
-									<li>
-										<span>
-											SQL
-										</span>
-									</li>
-									<li>
-										<span>
-											Postgresql
-										</span>
-									</li>
-									<li>
-										<span>
-											Oracle
-										</span>
-									</li>
-									<li>
-										<span>
-											REST
-										</span>
-									</li>
-									<li>
-										<span>
-											git
-										</span>
-									</li>
-									<li>
-										<span>
-											mercurial
-										</span>
-									</li>
-									<li>
-										<span>
-											Jenkins
-										</span>
-									</li>
-									<li>
-										<span>
-											Salesforce
-										</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-xs-1">
-						</div>
-					</div>
+                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
+                            <h3>
+                                My skills
+                            </h3>
+                            <h4>
+                                Programming
+                            </h4>
+                            <pre>public static void main main(String[] args) {<br>  System.out.println("Hello there!");<br>}</pre>
+                            <p>
+                                I tried to focused my background in all the aspects of the computer science. If in my job, I have to use specifics programming languages and frameworks, in private I try to learn all new technologies in order to introduce them.
+                                For example, I have learned how to implements web applications using Spring and Springboot frameworks, using AngularJS for the frontend part, nginx as web server and Docker for the delivery, and in private I focused my attenction to Node JS for the backend part and Vue JS for the frontend
+                            </p>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                        </div>
+                        <div class="col-xs-1 col-sm-1">
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4">
+                            <cloudtags></cloudtags>
+                        </div>
+                        <div class="col-xs-1 col-sm-1">
+                        </div>
+                        <div class="col-md-1 col-lg-1">
+                        </div>
+                    </div>
 					<div class="row row-paragraph">
 						<div class="col-xs-12 col-sm-12 col-md-11 col-lg-11" id="resume">
 							<div class="section-title">
@@ -310,6 +173,7 @@ import Slider from "./../components/Slider.vue";
 import Aboutme from "./../components/Aboutme.vue";
 import Googlemap from "./../components/Map.vue";
 import Endfooter from "./../components/Footer.vue";
+import Cloudtags from "./../components/Cloudtags.vue";
 
 export default {
 	name: 'page',
@@ -319,7 +183,8 @@ export default {
 		Aboutme,
 		Googlemap,
 		Endfooter,
-		Topmenu
+		Topmenu,
+		Cloudtags
 	},
 	data() {
 		return {

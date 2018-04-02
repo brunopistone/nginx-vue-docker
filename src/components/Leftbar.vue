@@ -49,11 +49,6 @@
 
 <script>
 	export default {
-		data() {
-			return {
-				isVisible : true
-			};
-		},
 		methods : {
 			scrollMeTo(refName) {
 				var reqId = "#"+refName;
