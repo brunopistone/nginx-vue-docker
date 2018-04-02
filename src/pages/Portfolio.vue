@@ -6,6 +6,11 @@
 			</div>
 			<div class="main-content">
 				<div class="section-content">
+					<div class="row show-top-menu">
+						<div class="col-xs-12">
+							<topmenu></topmenu>
+						</div>
+					</div>
 					<div class="row">
 						<div class="col-xs-12">
 							<slider></slider>
@@ -300,6 +305,7 @@
 <script>
 
 import Leftbar from "./../components/Leftbar.vue";
+import Topmenu from "./../components/Topmenu.vue";
 import Slider from "./../components/Slider.vue";
 import Aboutme from "./../components/Aboutme.vue";
 import Googlemap from "./../components/Map.vue";
@@ -312,7 +318,8 @@ export default {
 		Slider,
 		Aboutme,
 		Googlemap,
-		Endfooter
+		Endfooter,
+		Topmenu
 	},
 	data() {
 		return {
