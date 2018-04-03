@@ -1,7 +1,7 @@
 <template>
 	<div class="member-item">
 		<div class="member-thumb">
-			<img src="../../img/myphoto.jpg" alt="profile">
+			<img src="static/img/myphoto.jpg" alt="profile">
 			<div class="overlay">
 				<ul class="social-member">
 					<li><a target="_blank" href="https://github.com/bp91" class="fa fa-github"></a></li>

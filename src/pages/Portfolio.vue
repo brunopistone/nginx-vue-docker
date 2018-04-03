@@ -115,8 +115,8 @@
 					</div>
 					<div class="row row-paragraph">
 						<div class="col-xs-12" id="resume-link">
-							<a id="resume-anchor" target="_blank" href="../../pdf/Bruno Pistone - resume.pdf">
-								<img src="../../img/pdf-red.png"/>
+							<a id="resume-anchor" target="_blank" href="static/pdf/Bruno Pistone - resume.pdf">
+								<img src="static/img/pdf-red.png"/>
 									<span>RESUME<span></span></span>
 							</a>
 						</div>
