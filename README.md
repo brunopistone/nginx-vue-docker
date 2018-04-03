@@ -29,6 +29,8 @@ This repository contains everythings you need to create and run a docker contain
 <hr/>
 
 <div>
+    <img src="https://quiksite.com/wp-content/uploads/2016/09/NGINX-Logo.png" height="54px"/>
+    <br/>
     Nginx will serve static content from within a docker
 </div>
 
@@ -60,15 +62,6 @@ in frontend/
 		- edit "start" script to "start": "node server.js",
 
 Go to the project root and run this command
-
-
-> See it in action here
-
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Q9br0Db8LOI/0.jpg)](https://www.youtube.com/watch?v=Q9br0Db8LOI)
-
-
-
 
 
 ## Local, non-docker watcher and builds
