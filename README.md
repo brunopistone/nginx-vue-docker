@@ -1,10 +1,16 @@
 # frontend
 
-> Frontend part of web application
+> Frontend part of my web application
 
 ## Build Setup
 
 ``` bash
+#starting from
+
+vue init webpack vue-portfolio
+cd vue-portfolio
+npm install node-sass sass-loader --save
+
 # install dependencies (first run)
 npm install
 
@@ -15,6 +21,7 @@ npm update
 npm install
 
 # serve with hot reload at localhost:8081
+npm start
 npm run dev
 
 # build for production with minification
@@ -23,7 +30,7 @@ npm run build
 
 > Webpack:
 
-	Per cambiare la porta su cui ascoltare: in webpack.config.js, sotto devServer, aggiungere port:<porta>
+	Per cambiare la porta su cui ascoltare: in config/index.js, sotto dev, cambiare il valore di port
 
 > Vue Component:
 
