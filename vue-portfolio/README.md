@@ -1,6 +1,8 @@
-# frontend
+# vue-portfolio
 
 > Frontend part of my web application
+
+## Important: Don't upgrade webpack
 
 ## Build Setup
 
