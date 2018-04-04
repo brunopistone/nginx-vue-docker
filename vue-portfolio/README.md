@@ -9,7 +9,10 @@
 
 vue init webpack frontend
 cd vue-portfolio
+npm i -D webpack-cli
 npm install node-sass sass-loader --save
+npm install jquery --save
+npm install vue-easy-slider --save
 
 # install dependencies (first run)
 npm install

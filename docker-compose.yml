@@ -9,9 +9,9 @@ services:
     volumes: 
         - ./nginx/conf.d:/etc/nginx/conf.d
   
-  frontend:
-    build: frontend
-    container_name: frontend
+  portfolio:
+    build: vue-portfolio
+    container_name: portfolio
     expose: 
         - "8081"
     depends_on:
