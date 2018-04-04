@@ -47,16 +47,17 @@ You should have following sowftare installed on your machine:
 
 ## frontend creation
 
-npm install -g vue-cli
-vue init webpack frontend
-cd frontend/
-npm install node-sass sass-loader --save
-npm install
+- npm install -g vue-cli
+- vue init webpack frontend
+- cd frontend/
+- npm install node-sass sass-loader --save
+- npm install
 
 
 ## Docker build for production
 
-in frontend/
+in: 
+- frontend/
 	- create server.js file like the example
 	- in package.json
 		- edit "start" script to "start": "node server.js",
@@ -68,16 +69,15 @@ Go to the project root and run this command
 
 ``` bash
 # install dependencies
-npm install
+- npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+- npm run dev
 
 # build for production with minification
-npm run build
+- npm run build
 
 # build for production and view the bundle analyzer report
-npm run build --report
+- npm run build --report
 
 ```
-
