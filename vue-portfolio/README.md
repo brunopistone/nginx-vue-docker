@@ -2,7 +2,13 @@
 
 > Frontend part of my web application
 
-## Important: Don't upgrade webpack
+## Important:
+
+With this version of vue-cli, remember to DON'T UPGRADE following packages
+
+- optimize-css-assets-webpack-plugin  3.2.0 
+- webpack                             3.6.0 
+- webpack-dev-server                  2.9.1 
 
 ## Build Setup
 
