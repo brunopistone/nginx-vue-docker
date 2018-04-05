@@ -10,7 +10,7 @@ services:
         - ./nginx/conf.d:/etc/nginx/conf.d
   
   portfolio:
-    build: vue-portfolio
+    image: bp91/vue-portfolio:latest
     container_name: portfolio
     expose: 
         - "8081"
