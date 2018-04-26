@@ -14,7 +14,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style>
 	.first-footer {
 	    background-color: #495054;
 	    padding: 50px !important;

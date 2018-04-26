@@ -45,7 +45,7 @@ export default {
 }
 	
 </script>
-<style lang="scss">
+<style>
 
 	@media (min-width: 700px) {
 	    .slider {

@@ -18,7 +18,7 @@
 <script>
 	
 </script>
-<style type="scss">
+<style>
 	.member-item {
 	    overflow: hidden;
 	    height: auto;

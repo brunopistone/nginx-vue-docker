@@ -39,7 +39,7 @@
 		}
 	}
 </script>
-<style lang="scss">
+<style>
 	.responsive-navigation {
 	    position: relative;
 	    width: 100%;

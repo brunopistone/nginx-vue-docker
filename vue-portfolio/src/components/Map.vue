@@ -19,7 +19,7 @@
 		}
 	}
 </script>
-<style lang="scss">
+<style>
 	.google-map {
 	  height: 300px;
 	  margin: 0 auto;

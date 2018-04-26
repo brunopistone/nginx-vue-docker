@@ -198,7 +198,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 
 	.section-content {
 	    margin-bottom: 100px;

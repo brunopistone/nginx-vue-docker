@@ -58,7 +58,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style>
 
 	ul.nav {
 		width: 100%;
