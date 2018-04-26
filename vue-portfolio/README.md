@@ -31,6 +31,12 @@ ncu -u
 npm update
 npm install
 
+With this version of vue-cli, remember to DON'T UPGRADE following packages
+
+- optimize-css-assets-webpack-plugin  3.2.0 
+- webpack                             3.6.0 
+- webpack-dev-server                  2.9.1 
+
 # serve with hot reload at localhost:8081
 npm start
 npm run dev
