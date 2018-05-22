@@ -1,5 +1,5 @@
 # Create the image based on the official Node 8.9.0 image from Dockerhub
-FROM bp91/vue-portfolio:latest
+FROM node:latest
 
 ADD package.json /tmp/package.json
 RUN cd /tmp && npm install
